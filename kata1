@@ -1,0 +1,4 @@
+function disemvowel(str) {
+  const vowels = /[AEIOU]/gi;
+  return str.replace(vowels, '')
+}
