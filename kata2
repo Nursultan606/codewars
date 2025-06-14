@@ -1,0 +1,6 @@
+function abbrevName(name) {
+  const [firstName, surname] = name.split(' ');
+  const nameLetter = firstName[0].toUpperCase();
+  const surnameLetter = surname[0].toUpperCase();
+  return `${nameLetter}.${surnameLetter}`;
+}
