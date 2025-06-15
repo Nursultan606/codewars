@@ -1,0 +1,4 @@
+String.prototype.isUpperCase = function() {
+  const str = this.toString(); // Convert the string object to a primitive string
+  return str === str.toUpperCase(); // Compare the string with its uppercase version
+};
