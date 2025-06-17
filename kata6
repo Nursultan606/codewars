@@ -1,0 +1,4 @@
+function nameShuffler(str){
+  const [name, lastName] = str.split(' ');
+  return `${lastName} ${name}`;
+}
